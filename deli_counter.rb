@@ -20,8 +20,9 @@ end
 
 
 def take_a_number(katzdeli)
-  count = 1
-  puts 
+  count = 0
+  puts "Welcome! You're ticket number #{count+=1}"
+  katzdeli.push(count)
 end
 
 # take_a_number(katzdeli) => "Welcome! You're ticket number #1" [1]
