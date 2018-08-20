@@ -17,12 +17,11 @@ def take_a_number(array, name)
   puts 'Welcome, ' + name + '. You are number ' + i.to_s + ' in line.'
 end
 
-
+$count = 0
 
 def take_a_number(katzdeli)
-  count = 0
-  puts "Welcome! You're ticket number #{count+=1}"
-  katzdeli.push(count)
+  puts "Welcome! You're ticket number #{$count+=1}"
+  katzdeli.push($count)
 end
 
 # take_a_number(katzdeli) => "Welcome! You're ticket number #1" [1]
