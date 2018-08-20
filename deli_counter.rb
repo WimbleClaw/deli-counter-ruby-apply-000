@@ -18,6 +18,22 @@ def take_a_number(array, name)
 end
 
 
+
+def take_a_number(katzdeli)
+  count = 1
+  puts 
+end
+
+# take_a_number(katzdeli) => "Welcome! You're ticket number #1" [1]
+# take_a_number(katzdeli) => "Welcome! You're ticket number #2" [1,2]
+
+# now_serving(katzdeli) => "Currently serving #1" [2]
+# now_serving(katzdeli) => "Currently serving #2" []
+
+# take_a_number(katzdeli) => "Welcome! You're ticket number #3" [3]
+
+
+
 def now_serving (array)
   if array.length >= 1
     puts "Currently serving " + array[0].to_s + "."
